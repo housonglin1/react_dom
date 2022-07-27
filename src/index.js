@@ -1,13 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import React from 'react';//引入react核心库
+import ReactDOM from 'react-dom/client';//引入reactDOM
+import './index.css';//引入样式文件
+import App from './App';  //引入App
 import reportWebVitals from './reportWebVitals';
-
+import {BrowserRouter}from 'react-router-dom'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <BrowserRouter>
     <App />
+    </BrowserRouter>
   </React.StrictMode>
 );
 

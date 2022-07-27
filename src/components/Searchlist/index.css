@@ -1,0 +1,17 @@
+.row{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.card{
+    margin: 20px;
+}
+.card a {
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+.card a img{
+    width: 200px;
+    height: 200px;
+}

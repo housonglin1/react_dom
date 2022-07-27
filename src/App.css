@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+.Tolist{
+  width: 500px;
+  margin: 100px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+.App{
+  width: 720px;
+  margin: 50px auto;
+  border: 1px solid #ccc;
+  display: flex;
+  /* justify-content: space-around; */
+  
+}
+.linekStyle{
+  width: 200px;
+  display: block;
+  text-decoration:none;
+  color: #333;
+  border: 1px solid #ccc;
+  margin: 20px;
+}
+.newActive{
+  background: green;
+  color: #fff;
+}
+.newSonActive{
+  background: pink;
+  color: #fff;
+}
+li{
+  list-style: none;
+}
