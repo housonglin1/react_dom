@@ -3,7 +3,7 @@
 import React,{Component} from 'react';
 import{Switch,Route,Redirect} from 'react-router-dom'
  import{Button} from 'antd'
-import 'antd/dist/antd.css'
+ import 'antd/dist/antd.min.css';
 import MyNavLine from './components/MyNavLink';
 import About from './pages/About'
 import Home from './pages/Home'
